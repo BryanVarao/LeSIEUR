@@ -29,8 +29,51 @@ a {
 h1 {
     font-size: 36px;
     font-weight: 300;
+
+    letter-spacing: 0, 2px;
+
+    margin: 0;
+
+    text-align: center;
 }
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400px;
+
+    margin: 10px 0;
+
+    text-align: center;
+}
+
 
 /*------------------------------------------
 COMPONENTS
 ------------------------------------------*/
+
+/*wrapper*/
+.wrapper {
+    max-width: 1080px;
+
+    margin: 0 auto;
+}
+
+/*header*/
+.header {
+    background-color: #f26c25;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
